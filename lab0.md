@@ -10,4 +10,4 @@
  - Статистический анализ: merlin, ocaml-lsp;
  - Тестирование: alcotest.
 
-В качестве основной книги я выбираю «Real World OCaml».
+В качестве основной книги я выбираю [«Real World OCaml»](https://dev.realworldocaml.org/).
