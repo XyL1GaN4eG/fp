@@ -1,7 +1,3 @@
-(* Modular solution for generating prime numbers using sequences and higher-order
-   functions. The functions here focus on decomposing the task into reusable
-   pieces: sequence generation, filtering and selecting the desired element. *)
-
 let numbers_from start =
   Seq.unfold (fun n -> Some (n, n + 1)) start
 
