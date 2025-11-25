@@ -1,9 +1,3 @@
-(* Utilities for lexicographic permutations of digit lists. The primary
-   implementation uses the factoradic representation to jump directly to the
-   required permutation in tail-recursive style. A secondary implementation
-   relies on iterating through permutations to provide an alternative approach
-   closer to the "traditional" next-permutation algorithm. *)
-
 let factorial n =
   if n < 0 then invalid_arg "Factorial argument must be non-negative"
   else

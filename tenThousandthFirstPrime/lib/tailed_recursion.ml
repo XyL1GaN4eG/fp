@@ -13,7 +13,6 @@ let is_prime n =
 
 let nth_prime n =
   let rec loop count cand last =
-    (* если дошли до последнего элемента - то возвращаем его *)
     if count = n then last
     else if is_prime cand then loop (count + 1) (cand + 2) cand
     else loop count (cand + 2) last
