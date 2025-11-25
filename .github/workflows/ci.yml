@@ -17,12 +17,17 @@ jobs:
         with:
           ocaml-compiler: "5.1"
           opam-depext: true
+          opam-file: tenThousandthFirstPrime/tenThousandthFirstPrime.opam
+          opam-pin: true
 
       - name: Install dependencies
         run: opam install . --deps-only --with-test
+        working-directory: tenThousandthFirstPrime
 
       - name: Build
         run: opam exec -- dune build
+        working-directory: tenThousandthFirstPrime
 
       - name: Run tests
         run: opam exec -- dune runtest
+        working-directory: tenThousandthFirstPrime
