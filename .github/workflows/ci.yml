@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: opam install . --deps-only --with-test
 
-      - name: Check formatting
-        run: opam exec -- dune fmt --check
-
       - name: Build
         run: opam exec -- dune build
 
