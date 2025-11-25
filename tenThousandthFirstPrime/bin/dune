@@ -1,0 +1,4 @@
+(executable
+ (public_name tenThousandthFirstPrime)
+ (name main)
+ (libraries tenThousandthFirstPrime))

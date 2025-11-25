@@ -1,0 +1,9 @@
+{
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+    "editor.formatOnSave": true
+  },
+  "ocaml.sandbox": {
+    "kind": "opam"
+  }
+}

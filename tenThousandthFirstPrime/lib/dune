@@ -1,0 +1,4 @@
+(library
+ (name tenThousandthFirstPrime)
+ (wrapped false)
+ (flags (:standard -warn-error +a)))
